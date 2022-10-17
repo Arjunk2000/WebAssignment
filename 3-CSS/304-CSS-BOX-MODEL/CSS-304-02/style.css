@@ -1,1 +1,46 @@
 /* start your css here */
+.main{
+    border: 10px solid black;
+    width: 480px;
+    height: 400px;
+    background-color: black;
+}
+
+h3 {
+    color: antiquewhite;
+}
+
+#con{
+    color: aliceblue;
+}
+
+form{
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+
+input{
+    width: 430px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.s input{
+    width: 24px;
+    height: 25px;
+    border-radius: 7px;
+  }
+  .s{
+    display: flex;
+    font-size: 30px;
+  }
+
+.btn{
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid white;
+    padding: 10px auto;
+}
