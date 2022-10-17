@@ -1,1 +1,42 @@
 /* start your styling here  */
+
+.container{
+  display: flex;
+  width: 100%;
+  
+}
+
+.main1{
+    width: 1000px;
+    background-color: yellow;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+
+}
+
+.main2{
+    width: 1000px;
+    background-color: rgb(72, 141, 7);
+
+}
+.main3{
+    width: 1000px;
+    background-color: rgb(255, 115, 1);
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+
+}
+
+.main{
+    padding: 10px;
+    
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40%;
+    background-color: whitesmoke;
+    color: black;
+}
