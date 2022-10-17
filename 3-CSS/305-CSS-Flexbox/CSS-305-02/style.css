@@ -1,1 +1,57 @@
 /* start your styling here  */
+
+.container{
+    border: 1px solid black;
+    width: 550px;
+    height: 470px;
+    background-color: palevioletred;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+   row-gap: 10px;
+   column-gap: 15px;
+}
+
+.im{
+    padding: 0 20px 20px;
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px;
+    
+}
+
+.head{
+    padding: 10px;
+}
+
+.im1{
+    width: 120px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.im2{
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.imd{
+    background-color: yellow;
+}
+
+.imc{
+    background-color: lightgreen;
+}
+
+.ime{
+    background-color: aqua;
+}
