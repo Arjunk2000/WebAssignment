@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      body{
+        
+        margin-top: 200px ;
+        margin-left: 200px;
+        padding-left: 300px;
+        
+      }
+
+      input{
+        border-color: rgb(3, 247, 3);
+      }
+    </style>
   </head>
   <body>
-    Start your code here
+    <input type="text" id="content" value="" oninput="fun()">
+    
+    <p id="para" ></p>
+
+    <script>
+      function fun(){
+        var funref=document.getElementById("content")
+        
+        var inputvalue=funref.value
+        var pararef=document.getElementById("para")
+
+        pararef.innerText=inputvalue;
+      }
+    </script>
   </body>
 </html>
