@@ -21,13 +21,14 @@
     </style>
   </head>
   <body>
-    <input type="text" id="content" value="" oninput="fun()">
+    <input type="text" id="content" value="" onkeyup="fun()">
     
     <p id="para" ></p>
 
     <script>
+      var funref=document.getElementById("content")
       function fun(){
-        var funref=document.getElementById("content")
+        
         
         var inputvalue=funref.value
         var pararef=document.getElementById("para")
