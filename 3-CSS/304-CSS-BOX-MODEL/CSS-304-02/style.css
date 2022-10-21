@@ -2,7 +2,7 @@
 .main{
     border: 10px solid black;
     width: 480px;
-    height: 400px;
+    height: 420px;
     background-color: black;
 }
 
@@ -38,9 +38,10 @@ input{
 
 .btn{
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 160px;
     background-color: black;
     color: antiquewhite;
     border: 1px solid white;
     padding: 10px auto;
+    width: 100px;
 }
