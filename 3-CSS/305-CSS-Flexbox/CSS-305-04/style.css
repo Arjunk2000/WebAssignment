@@ -1,1 +1,125 @@
-/* start your styling here  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.exp{
+    display: flex;
+    flex-wrap: nowrap;
+    color: yellow;
+}
+
+
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    justify-content: center;
+    align-items: center;
+}
+.dis a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+.part6 i,
+.part5 i{
+    color: whitesmoke;
+}
+.part6 i{
+    margin-right: 5px;
+} 
+
+ .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login{
+    width: 138px;
+    height: 32px;
+    color: #2874f0;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+
+
+
+.dis{
+    margin: 0 20px;
+}
+
+
+.explore{
+    color: whitesmoke;
+    
+}
+
+
+.part2{
+    margin: 0px 10px;
+}
+
+
+
+.search{
+    width: 478px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: none;
+}
+
+
+.search:focus{
+    outline: none;
+}
+
+.exp a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0;
+    color: whitesmoke;
+}
+.exp a span{
+    color: rgb(255, 255, 55);
+}
+
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 90px;
+    box-shadow: 0px 0px 2px rgb(135, 131, 131);
+}
+.products .img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products .img1 img{
+    width: 60px;
+    height: 60px;
+}
+.products .img1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 600;
+    
+}
+
+.products .img1 a:hover{
+    color: #2874f0;
+}
