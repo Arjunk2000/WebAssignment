@@ -1,155 +1,99 @@
 /* start your styling here  */
-
-
-.heading .process{
-    height: 27px;
-    border-radius: 20px;
-    width: 36%;
-    background-color: rgba(240, 240, 240, 0.715);
-}
-.cards{
+.container{
     display: flex;
-    flex-direction: column;
-    height:600px ;
-    margin: 80px 10px;
-    justify-content: space-evenly;
+    border-radius: 20%;
 }
 
-
-.link{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.second{
+    width: 900px;
+    background-color: aqua;
+    font-size: 20px;
+}
+.first{
+    width: 300px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: rgb(154, 236, 236);
+    font-size: 20px;
+    
 }
 
-.link .con{
+.kholi{
+    border-radius: 50px;
+}
+
+.image{
+    padding-left: 80px;
+}
+
+.main{
+    padding-top: 20px;
+}
+
+.main .streams{
     display: flex;
     justify-content: start;
     margin-bottom: 50px;
     align-items: center;
+    padding-left: 50px;
 }
-.link .con img{
-    width: 40px;
-    height: 40px;
-}
-.link .con a{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.801);
-    font-weight: 600;
-    font-size: 25px;
-    margin-left: 30px;
 
+img{
+    border-radius: 50%;
 }
-.joinpro{
+
+.sep{
+    background-color: rgb(69, 236, 181);
+    width: 250px;
     display: flex;
-    background-color: rgba(44, 191, 191, 0.687);
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.outside{
+    padding: 50px;
+}
+.block{
     border-radius: 10px;
-    width: 70%;
-    margin: 0 auto;
-    align-items: center;
-    padding: 20px;
-    
-}
-.pro{
-    width: 50%;
-}
-.pro p{
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-}
-.heading h1{
-    font-weight: 900;
-    color: rgba(0, 0, 0, 0.626);
-    font-size: 35px;
-}
-
-
-.container{
-  
-    width: 95%;
-    margin: 0 auto;
-}
-.main{
+    width: 700px;
+    background-color: rgb(219, 234, 248);
     display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.active{
+    width: 190px;
+    padding-top: 20px;
+    padding-left: 50px;
    
-    padding: 5px;
-    border-radius: 20px;
-    height: 900px;
 }
 
-.join{
-    border-radius: 40%;
-}
-.rating{
-    height: 25px;
-    width: 100%;
-    background-color: rgba(44, 191, 191, 0.881);
-    border-radius: 10px;
-}
-
-.card .item img{
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
+.con{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
     
 }
 
-
-.left{
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0px;
-    background-color:rgba(44, 191, 191, 0.167);
-    flex-direction: column;
-    border-radius: 20px 0px 0px 20px;
+.per{
+    padding: 30px;
+}
+p{
+    background-color: rgb(145, 202, 202);
+    color: rgb(145, 202, 202) ;
+    border-radius: 5px;
 }
 
-.items{
-    font-weight: 600;
-    font-size: 25px;
+.pro{
+    padding-left: 50px;
+    background-color: rgb(81, 81, 121);
+    
 }
-
 
 *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-
-.card{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.489);
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0px 0px 10px  rgba(44, 191, 191, 0.61);
-    margin-bottom: 30px;
-}
-
-.left .profile{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.profile h2{
-    color: rgb(82, 81, 81);
-}
-.profile p{
-    font-weight: 600;
-    color:rgba(82, 81, 81, 0.384) ;
-    
-}
-.left .profile img{
-    border-radius: 50%;
-}
-.right{
-    width: 70%;
-    background-color: rgba(44, 191, 191, 0.279);
-    padding: 100px 100px;
-    border-radius: 0px 20px 20px 0px;
 }
