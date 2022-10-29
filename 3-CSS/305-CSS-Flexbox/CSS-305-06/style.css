@@ -61,6 +61,7 @@ input{
     border-radius: 25px;
     background-color: rgb(32, 32, 223);
     color: aliceblue;
+    border: none;
 }
 
 .empty{
