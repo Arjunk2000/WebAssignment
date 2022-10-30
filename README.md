@@ -50,9 +50,9 @@ How to use this repository
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-05]                      |https://arjunk2000.github.io/WebAssignment/3-CSS/305-CSS-Flexbox/CSS-305-05/             |
 | 5     | CSS   | [CSS-FLEXBOX](./3-CSS/305-CSS-Flexbox/)    [CSS-305-06]                      |https://arjunk2000.github.io/WebAssignment//3-CSS/305-CSS-Flexbox/CSS-305-06/             |
 | 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-01]                      |https://arjunk2000.github.io/WebAssignment/3-CSS/306-CSS-Grid/CSS-306-01/             |
-| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-02]                      |             |
+| 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-02]                      |https://arjunk2000.github.io/WebAssignment/3-CSS/306-CSS-Grid/CSS-306-02/index.html             |
 | 6     | CSS   | [CSS-GRID](./3-CSS/306-CSS-Grid/)          [CSS-306-03]                      |https://arjunk2000.github.io/WebAssignment/3-CSS/306-CSS-Grid/CSS-306-03/             |
-| 7     | CSS   | [CSS-SELECTORS](./3-CSS/307-Advance-CSS-Selectors/)    [CSS-307-01]          |             |
+| 7     | CSS   | [CSS-SELECTORS](./3-CSS/307-Advance-CSS-Selectors/)    [CSS-307-01]          |https://arjunk2000.github.io/WebAssignment/3-CSS/307-Advance-CSS-Selectors/CSS-307-01/index.html             |
 | 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/)  [CSS-308-01]          |             |
 | 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/)  [CSS-308-02]          |             |
 | 8     | CSS   | [CSS-PSEUDO-CLASSES](./3-CSS/308-CSS-Pseudo-Classes/)  [CSS-308-03]          |             |
@@ -63,7 +63,7 @@ How to use this repository
 
 | S No. | Topic | Assignment                                                                | Hosted Link |
 | ----- | ----- | ------------------------------------------------------------------------- | ----------- |
-| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-01]             |             |
+| 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-01]             |https://arjunk2000.github.io/WebAssignment/4-Advance-JS/401-DOM-Manipulation/AdvanceJS-401-01/             |
 | 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-02]             |             |
 | 1     | JS    | [DOM-MANIPULATION-1](./4-Advance-JS/401-DOM-Manipulation/)  [AdvanceJS-401-03]             |             |
 | 2     | JS    | [DOM-MANIPULATION-2](./4-Advance-JS/402-DOM-Manipulation/)  [AdvanceJS-402-01]             |             |
