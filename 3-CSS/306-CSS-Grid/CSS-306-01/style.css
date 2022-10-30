@@ -1,1 +1,76 @@
 /* start your styling here  */
+
+.container{
+    background-color:black ;
+    padding: 10px;
+    width: 800px;
+    height: 400px;
+   gap: 10px ;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 80px;
+}
+
+.box1{
+    background-color: aqua;
+    grid-column: 1/span 1;
+}
+
+.box2{
+    background-color: rgb(140, 218, 218);
+    grid-column: 2/span 3;
+    grid-row: 1/span 2;
+}
+
+.box3{
+    background-color: rgb(177, 144, 184);
+    grid-column: 5/span 6;
+}
+
+.box4{
+    background-color: blueviolet;
+}
+.box5{
+    background-color: brown;
+    grid-column: 5/span 6;
+}
+
+.box6{
+    background-color: rgb(119, 103, 134);
+}
+
+.box7{
+    background-color: aqua;
+}
+.box8{
+    background-color: blueviolet;
+    grid-column: 3 /span 2;
+    grid-row: 3 /span 2;
+}
+
+.box9{
+    background-color: blanchedalmond;
+    grid-column: 5 /span 0;
+}
+
+.box10{
+    background-color: rgb(128, 111, 111);
+    grid-column: 6 /span 5;
+}
+
+.box11{
+    background-color: rgb(42, 165, 93);
+}
+
+.box12{
+    background-color: rgb(138, 196, 31);
+}
+
+.box13{
+    background-color: rgb(247, 152, 11);
+}
+
+.box14{
+    background-color: rgb(226, 21, 175);
+    grid-column:6 /span 5;
+}
