@@ -1,1 +1,69 @@
 /* start your styling here  */
+
+.container{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+}
+
+.suu{
+    border-color: rgb(70, 228, 31);
+    background-color: rgb(253, 253, 253);
+    color: green;
+}
+
+.in{
+    border-color: blue;
+    background-color: white;
+    color: blue;
+}
+
+.war{
+    border-color: orange;
+    background-color: white;
+    color: orange;
+}
+
+.dan{
+    border-color: red;
+    background-color: white;
+    color: red;
+}
+
+.daf{
+    border-color: grey;
+    background-color: white;
+    color: grey;
+}
+#suu button:hover{
+    background-color: green;
+    color: white;
+}
+
+#info button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#war button:hover{
+    background-color: orange;
+    color: white;
+}
+
+#dan button:hover{
+    background-color: red;
+    color: white;
+}
+
+#daf button:hover{
+    background-color: grey;
+    color: black;
+}
+
