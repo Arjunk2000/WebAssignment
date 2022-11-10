@@ -1,0 +1,42 @@
+.navbar{
+    background: #15d826;
+  }
+
+  input{
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    }
+
+
+
+  #audi{
+    width: 20px;
+  }
+
+  #h2{
+    margin: 1px 45%;
+    color: white;
+   }
+   .main-content{
+     text-align: center;
+     margin-top: 50px;
+   }
+   .link-name h4{
+     font-size: 20px;
+     margin: 20px;
+   }
+
+
+  #submit{
+  background: #15d826;
+  color: white;
+  height: 100%;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  border: none;
+
+  }
+  

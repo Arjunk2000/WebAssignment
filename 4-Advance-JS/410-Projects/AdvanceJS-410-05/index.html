@@ -4,9 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>doc</title>
+    <link rel="stylesheet" href="stule.css">
+    <style>
+    
+    </style>
   </head>
   <body>
-    Start your code here
+   <div class="container">
+    <div id="get">
+    <h2 id="quote" > "Genius is one percent inspiration and ninety-nine percent perspiration,,</h2><br>
+    <h3 id="author" >~ Thomas Edison</h3></div>
+    <hr>
+    <div class="last-item">
+      <div class="img">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" width="35px" alt="">
+      </div>
+      <form action="">
+        <button id="btn">Next quote</button>
+      </form>
+    </div>
+
+   </div>
+   <script >
+    const form= document.querySelector("form");
+const  quote=document.querySelector("#quote");
+const author=document.querySelector("#author");
+const btn=document.querySelector("#btn");
+const get=document.querySelector("#get");
+
+
+
+const getQuote= async()=>{
+    const res=fetch("https://type.fit/api/quotes");
+    const data=await (await res).json();
+    const num=Math.floor(Math.random()*data.length);
+    const item=data[num];
+
+    const t=item.text;
+   
+    const a=item.author;
+    quote.innerText=`"${t},,`;
+    author.innerText=` ~ ${a}`;
+
+
+
+
+}
+btn.addEventListener("click",getQuote)
+
+
+    getQuote()
+   </script>
   </body>
 </html>
